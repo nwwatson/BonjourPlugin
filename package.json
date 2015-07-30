@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-bonjour",
+  "version": "0.0.1-dev",
+  "description": "Cordova Bonjour Plugin",
+  "cordova": {
+    "id": "cordova-plugin-bonjour",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nwwatson/BonjourPlugin"
+  },
+  "keywords": [
+    "cordova",
+    "cordova-ios",
+    "bonjour"
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache 2.0"
+}
