@@ -1,6 +1,6 @@
 ?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="com.nwwsolutions.cordova.bonjour" version="0.2.3">
+        id="com.nwwsolutions.cordova.bonjour" version="0.2.15">
     <name>BonjourPlugin</name>
     <description>Bonjour Plugin</description>
     <license>Apache 2.0</license>
