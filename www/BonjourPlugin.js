@@ -8,19 +8,21 @@
 
 (function(cordova) {
   var BonjourPlugin = function BonjourPlugin() {};
-  
+
   BonjourPlugin.prototype = {
     constructor: BonjourPlugin,
-    
+
     startServiceDiscovery: function(serviceType, searchDomain, callback) {
+      console.log("Before execution of startServiceDiscovery");
       cordova.exec(callback, null, 'BonjourPlugin', 'startServiceDiscovery', [serviceType, searchDomain]);
+      console.log("After execution of startServiceDiscovery");
     },
-    
+
     stopServiceDiscovery: function() {
       cordova.exec(null, null, 'BonjourPlugin', 'stopServiceDiscovery');
     }
   };
-  
+
   cordova.addConstructor(function() {
     window.plugins = window.plugins || {};
     window.plugins.bonjourPlugin = new BonjourPlugin();
